@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>sultan table</title>
+    
+    <style>
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <h2>My table with HTML AND CSS</h2>
+    <table>
+        <caption>Website info</caption>
+        <tr>
+            <th>No.</th>
+            <th>Website Name</th>
+            <th>image</th>
+            <th>URL</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Apple</td>
+            <td> <img src="C:\Users\LH\Desktop\picture\apple.png" width=”280″></td>
+            <td> <a href="https://www.apple.com/">https://www.apple.com/</a>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Google</td>
+            <td> <img src="C:\Users\LH\Desktop\picture\google.png" width=”280″></td>
+            <td> <a href="https://www.google.com/">https://www.google.com/</a>
+            
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Amazon</td>
+            <td> <img src="C:\Users\LH\Desktop\picture\amazon.png" width=”280″></td>
+            <td> <a href="https://www.amazon.com/">https://www.amazon.com/</a>
+            
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Facebook</td>
+            <td> <img src="C:\Users\LH\Desktop\picture\facebook.jfif" width=”280″></td>
+            <td> <a href="https://www.facebook.com/">https://www.facebook.com/</a>
+            
+        </tr>
+    </table>
+</body>
+</html
